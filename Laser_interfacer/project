@@ -1,0 +1,7 @@
+schematics  Laser_int.sch
+output-name Laser_int.pcb
+elements-dir ~/.gEDA/symbols/alex/fp/
+elements-dir ~/.gEDA/symbols/downloaded/
+elements-dir ./fp/
+
+# launch "lepton-sch2pcb project"
