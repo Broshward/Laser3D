@@ -3,6 +3,8 @@
 This is project for add laser module to 3D printer without disassemble extruder for making PCB.
 It contains shematics, pcb, 3D models and some utility for gcode 3D to laser translating.
 Shematics and pcb has developed in gEDA electronics softvare.
+At the beginning of laser engraving make I try to follow of this instruction https://www.instructables.com/3D-Printer-Laser-Modification/
+But it worked partially for me. Therefore I make as other :)
 
 Laser_interfacer contains simple pcb for control Laser module throught the cooler model fan of 3D printer.
 The Laser Holder 3D model you can find in 3D models repository: https://github.com/Broshward/3D_models
