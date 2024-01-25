@@ -18,3 +18,6 @@ Approximate PCB prototyping process:
 6. Using "to_laser_gcode.py" utility for converting filament gcode to Laser engraving gcode.
 7. Using engraving gcode for engraving painted glass textolite on 3D printer.
 8.  Pickling in ferric chloride or hydrogen peroxide.
+
+
+License: Harmonies Worlds
