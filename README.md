@@ -19,5 +19,6 @@ Approximate PCB prototyping process:
 7. Using engraving gcode for engraving painted glass textolite on 3D printer.
 8.  Pickling in ferric chloride or hydrogen peroxide.
 
+Youtube demo https://youtu.be/POvhcZt-CR4
 
 License: Harmonies Worlds
