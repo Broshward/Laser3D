@@ -1,5 +1,11 @@
 difference(){
-    cube([21,32,1],true);
-    translate([0,0.3,-5]) linear_extrude(10) import("Laser_int.pcb.svg");
+    cube([21,32,1]);
+    translate([0,0,-0.1]) cooper();
 }
-    translate([21,0.3,0]) linear_extrude(10) import("Laser_int.pcb.svg");
+//cooper();
+module cooper(){
+    difference(){
+        linear_extrude(1.5) import("Laser_int.pcb.svg");
+        translate([0,0,-0.1]) linear_extrude(2) import("Laser_int.pcb_drill.svg");
+    }
+}   
