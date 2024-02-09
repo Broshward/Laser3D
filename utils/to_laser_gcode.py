@@ -12,7 +12,7 @@ usage: %s [--laser-on cmd] [--laser-off cmd] [--layers-count N] [--height-bias H
         --laser-off cmd     Similarly --laser-on, but for switch off laser module.
         --layers-count N    Leaves only N top Layers from file.
                             Default value on the layers_count variable.
-        -h H                It lifts laser module to H millimeters from bot for begin engraving height.
+        -h H                It lifts laser module to H millimeters from bot for begin engraving height. Default 40.
                             Default value is described the "engraving_height_bias" variable.
         -o file             Output gcode filename. Defaulting add "_laser" to input filename.
 ''' %(sys.argv[0])
@@ -39,6 +39,8 @@ if '-h' in sys.argv:
     ind=sys.argv.index('-h')
     engraving_height_bias = eval(sys.argv[ind+1])
     sys.argv = sys.argv[:ind]+sys.argv[ind+2:]
+else:
+    engraving_height_bias = 40
 if '-o' in sys.argv:
     ind=sys.argv.index('-o')
     output = sys.argv[ind+1]
